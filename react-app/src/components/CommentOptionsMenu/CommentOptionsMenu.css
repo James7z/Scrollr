@@ -1,0 +1,73 @@
+.post-comment-container .fa-solid.fa-ellipsis.open-commenter-options-button {
+    visibility: hidden;
+}
+
+.post-comment-container:hover .fa-solid.fa-ellipsis.open-commenter-options-button {
+    visibility: visible;
+    cursor: pointer;
+    height: 10px;
+}
+
+.fa-solid.fa-ellipsis.open-commenter-options-button {
+    padding: 0px;
+    border-radius: 2px;
+}
+
+.origional-commenter-options-menu:not(.hidden) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 5px;
+    left: auto;
+    bottom: auto;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.origional-commenter-options-container div.origional-commenter-options-menu {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.origional-commenter-options-menu > button:hover {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.origional-commenter-options-menu .comment-option-cancel-button:hover {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.origional-commenter-options-menu > button {
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 16px;
+    color:rgb(252, 53, 39);
+    cursor: pointer;
+    width: 100%;
+}
+
+.origional-commenter-options-menu div.origional-commenter-options-menu-section {
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    padding: 10px 20px;
+}
+
+.origional-commenter-options-menu > button:hover,
+.origional-commenter-options-menu-section:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.hidden {
+    box-shadow: none;
+}

@@ -1,0 +1,31 @@
+#tech-modal-container {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tech-modal-prompt {
+    margin: 0px;
+}
+
+#tech-info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-tech-img {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

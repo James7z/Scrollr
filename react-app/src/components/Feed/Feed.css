@@ -1,0 +1,307 @@
+* * {
+    color: aliceblue;
+}
+
+#homepage {
+    display: flex;
+    justify-content: center;
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logged-user-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#logged-user-bar.hidden {
+    display: none;
+}
+
+#logged-user-bar > button {
+    border: none;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    height: min-content;
+    width: min-content;
+}
+
+#logged-user-image {
+    border-radius: 3px;
+    margin-left: 18px;
+    height: 64px;
+    width: 64px;
+}
+
+#logged-user-post-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    border-radius: 3px;
+    width: 540px;
+    height: 104px;
+    margin-right: 12px;
+}
+
+#logged-user-post-options > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.post-details div.post-react-options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0px;
+}
+
+#logged-user-post-options > * .post-option-container .post-option-text {
+    height: 19px;
+    margin-top: 14px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.post-option-text,
+.post-option-icon {
+    margin-top: 20px;
+}
+
+.post-option-icon {
+    transition-duration: 0.1s;
+}
+
+.post-option-container:hover .post-option-icon {
+    transform: translateY(-5px);
+}
+
+#post-image-option-icon {
+    color: rgb(255, 74, 42);
+}
+
+#post-quote-option-icon {
+    color: rgb(255, 123, 0);
+}
+
+#post-link-option-icon {
+    color: rgb(60, 212, 40);
+}
+
+#post-chat-option-icon {
+    color: rgb(0, 195, 255);
+}
+
+#post-audio-option-icon {
+    color: rgb(96, 82, 189);
+}
+
+#post-video-option-icon {
+    color: rgb(245, 103, 186);
+}
+
+#text-option-image {
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.post-details {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 40, 40);
+    border-radius: 3px;
+    width: 540px;
+    margin-right: 12px;
+}
+
+.post-details *:not(.post-image) {
+    padding: 10px 20px;
+
+}
+
+.post-details .post-user {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 0px 15px;
+}
+
+.post-user span.user-username {
+    height: 19px;
+    padding: 10px 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.follow-user-button div.follow-button-container {
+    padding: 10px;
+}
+
+.post-user .follow-user-button {
+    padding: 0px;
+    color: rgb(22, 189, 255);
+    cursor: pointer;
+}
+
+.post-user .follow-user-button:hover {
+    text-decoration: underline;
+}
+
+.post-details .post-title {
+    margin: 0px;
+    padding-left: 15px;
+    outline: none;
+    overflow-wrap: break-word;
+}
+
+.post-details .post-text {
+    padding-left: 15px;
+    overflow-wrap: break-word;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-user-image-container {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.post-user-image-container > button {
+    position: sticky;
+    top: 70px;
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.post-user-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 3px;
+}
+
+.post-details div.post-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0px 10px 0px;
+    width: auto;
+    border-bottom: 1px solid grey;
+}
+
+.post-details div.post-option-container:not(.hidden) {
+    border-bottom: none;
+}
+
+.close-comments-button p.close-notes-button-text {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.post-react-options-container div.post-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+}
+
+.post-options .view-comments-button {
+    cursor: pointer;
+    padding: 0px 15px;
+    height: min-content;
+}
+
+.post-options .close-comments-button.show {
+    padding: 6px 10px 6px 0px;
+    margin-left: 15px;
+}
+
+.post-options .close-comments-button.show {
+    display: flex;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    border-radius: 25px;
+}
+
+.post-options i.close-comments-button-image {
+    padding: 0px 10px 0px 0px;
+}
+
+.post-options div.comment-and-like-button-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 10px;
+}
+
+.comment-and-like-button-container i.comment-button,
+.comment-and-like-button-container i.like-button {
+    cursor: pointer;
+    padding: 10px 13px 10px 15px;
+}
+
+#extras {
+    height: auto;
+    display: flex;
+    width: 320px;
+    margin-left: 20px;
+}
+
+#extras > button {
+    padding: 0px;
+    margin-right: 10px;
+}
+
+#homepage div#extras * {
+    background: none;
+    border: none;
+    position: sticky;
+    top: 95vh;
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    color: rgb(0, 195, 255);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.github-to-link {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
