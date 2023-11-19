@@ -34,7 +34,7 @@
     width: 340px;
 }
 
-.login-form > * {
+.login-form>* {
     width: 95%;
 }
 
@@ -132,4 +132,44 @@ i.login-form-arrow-img {
 
 #login-errors-symbol {
     padding-right: 8px;
+}
+
+/************************************/
+#user-menu-options>* {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(241, 241, 241);
+    height: 36px;
+    padding: 0 20px 0 10px;
+}
+
+.user-menu-header.user-menu-section button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding-right: 0px;
+}
+
+.user-menu-section:not(.user-menu-header) {
+    height: 41px;
+    cursor: pointer;
+}
+
+.user-menu-section-image {
+    padding-right: 15px;
+}
+
+.user-menu-section.user-menu-header {
+    background-color: rgb(54, 54, 54);
+}
+
+.user-menu-section.user-menu-header * {
+    color: rgb(199, 199, 199);
+}
+
+.user-menu-section.user-menu-header.top {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
 }
