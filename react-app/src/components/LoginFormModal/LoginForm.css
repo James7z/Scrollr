@@ -239,3 +239,66 @@ i.login-form-arrow-img {
     padding: 8px;
     padding-bottom: 4px;
 }
+
+
+
+.project-tasks-link {
+    text-decoration: none;
+}
+
+.project-tasks-link a,
+a:visited {
+    text-decoration: none;
+    /* color: blue; */
+}
+
+.resize_handle {
+    box-sizing: border-box;
+    width: 5px;
+    margin-left: -2px;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: transparent;
+    cursor: col-resize;
+}
+
+.project-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+}
+
+.project-title-container i {
+    cursor: pointer;
+}
+
+.project-title-container h3 {
+    display: inline;
+}
+
+.project-title-container i {
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+}
+
+
+.project-list-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 2px;
+    max-width: 220px;
+}
+
+.project-list-project-name {
+    word-wrap: break-word;
+    max-width: 160px;
+}
+
+.project-action-button {
+    border: none;
+    background-color: #fafafa;
+    cursor: pointer;
+}
