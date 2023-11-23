@@ -173,3 +173,69 @@ i.login-form-arrow-img {
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
 }
+
+/********************/
+.project-editor-form {
+    background-color: rgb(16, 143, 193);
+    border-radius: 5px;
+    width: 350px;
+    padding: 2px 5px;
+    font-size: 16px;
+
+}
+
+.project-editor-form label {
+    font-weight: normal;
+    margin: 2px 2%;
+    background-color: rgb(16, 143, 193);
+    color: white;
+    font-size: 16px;
+
+}
+
+
+.project-editor-input-fields {
+    margin: 10px 10px 10px;
+
+}
+
+.project-editor-input-fields input {
+    width: 91%;
+    margin: 2px 2%;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    padding: 8px;
+    padding-bottom: 4px;
+    font-size: 16px;
+
+}
+
+
+
+
+
+.project-editor-footer-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5px 15%;
+}
+
+
+.project-editor-footer button {
+    border-radius: 5px;
+    height: 2em;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 3px;
+}
+
+.project-editor-form select {
+    font-size: 16px;
+    width: 97%;
+    margin: 2px 2%;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    padding: 8px;
+    padding-bottom: 4px;
+}
