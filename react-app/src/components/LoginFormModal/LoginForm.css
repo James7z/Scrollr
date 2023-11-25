@@ -651,3 +651,70 @@ div.make-comment-container.false form.type-comment-box-container {
     overflow-wrap: break-word;
     height: max-content;
 }
+
+.post-comments-container div.likes-container {
+    padding: 0px 0px 20px 0px;
+    height: 540px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+div.likes-container div.user-like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px 10px 0px;
+}
+
+.post-comments-container .comments-container.hidden.empty,
+.post-comments-container .comments-container.hidden.empty *,
+.post-comments-container .likes-container.hidden.empty,
+.post-comments-container .likes-container.hidden.empty * {
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+}
+
+.post-comments-container .comments-container.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-comments-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-comments-message-icon,
+.no-comments-message {
+    color: rgb(155, 155, 155);
+}
+
+.no-comments-message {
+    font-weight: bold;
+}
+
+.post-comments-container div.likes-container.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-likes-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-likes-message-icon,
+.no-likes-message {
+    color: rgb(155, 155, 155);
+}
+
+.no-likes-message {
+    font-weight: bold;
+}
