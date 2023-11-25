@@ -718,3 +718,7 @@ div.likes-container div.user-like {
 .no-likes-message {
     font-weight: bold;
 }
+
+.forbidden {
+    cursor: not-allowed !important;
+}
